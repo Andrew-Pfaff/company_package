@@ -1,6 +1,8 @@
 import yfinance as yf
 import pandas as pd
 
+# this file explains what a Python class is
+
 class Company:
     """
     A class representing a company.
@@ -66,6 +68,7 @@ class Company:
     def summarize_activity(self, *args, **kwargs):
         """
         Summarizes company activities and additional information.
+
 
         Parameters:
         - *args: A list of activities related to the company.
